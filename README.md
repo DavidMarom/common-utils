@@ -8,6 +8,8 @@ npm i @davidmarom/dm-common-utils
 ```import * as cu from '@davidmarom/dm-common-utils';```
 ```  console.log(cu.getCUVer());```
 
-### getCUVer()
+### getCUVer() - get current version
 ### isLetter(char)
 ### isNum(char)
+### saveJSONtoLocalStorage(key,JSON)
+### getJSONfromLocalStorage(key)
