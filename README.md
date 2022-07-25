@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)]
+![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)
 # Common Utils
 Everyday functions you are always looking for.
 
