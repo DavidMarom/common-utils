@@ -1,7 +1,27 @@
 function getCUVer(){
-    return '0.0.1';
+    return '1.0.2';
+}
+
+function isLetter(c) {
+	return c.toLowerCase() != c.toUpperCase();
+}
+
+function isNum(val) {
+	return (val.charCodeAt(0) > 47 && val.charCodeAt(0) < 58);
+}
+
+function saveJSONtoLocalStorage(key, json) {
+    localStorage.setItem(key, JSON.stringify(json));
+}
+
+function getJSONfromLocalStorage(key) {
+    return JSON.parse(localStorage.getItem(key));
 }
 
 module.exports = {
     getCUVer,
+    isLetter,
+    isNum,
+    saveJSONtoLocalStorage,
+    getJSONfromLocalStorage
 };
