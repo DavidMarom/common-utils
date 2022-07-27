@@ -16,3 +16,4 @@ console.log(cu.getCUVer());
 ### isNum(char)
 ### saveJSONtoLocalStorage(key,JSON)
 ### getJSONfromLocalStorage(key)
+### CenterVH(htmlELEMENT, width?, height? )

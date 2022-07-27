@@ -14,7 +14,7 @@ function CenterVH(el, w = "100%", h = "100%") {
 }
 
 function getCUVer() {
-    return '1.2.1';
+    return '1.2.2';
 }
 
 function isLetter(c) {
